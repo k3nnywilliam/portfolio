@@ -1,86 +1,140 @@
-import React, {Fragment} from 'react';
-import { Card, CardGroup, Button } from 'react-bootstrap';
-import bio from './images/biology.jpg';
+import React, { Fragment } from 'react';
+import { Card, CardGroup, Button, Row, Col, Container } from 'react-bootstrap';
+import map from './images/map3-min.jpg';
+import genoken from './images/genoken.jpg';
+import bovine from './images/bovine.jpg';
+import stroke from './images/stroke2.jpg'
+import brain from './images/brain2.jpg';
+import nutrition from './images/nutrition2.jpg';
+import heart from './images/heart2.jpg';
+import regression from './images/regression.jpg';
+import wheat from './images/wheat.jpg';
 
 const ProjectPage = () => {
     return [
         <Fragment>
-        <div id='portfolio'></div>
-        <br/><br/><br/>
-        <h1>Featured Projects</h1>
-        <CardGroup>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to
-                        show that equal height action.
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-                
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-                
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={bio} />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to
-                        show that equal height action.
-                    </Card.Text>
-                    <Button variant="primary">View</Button>
-                </Card.Body>
-            </Card>
-        </CardGroup>
-                    
+        <Container>
+        <hr/><br/><br/> 
+            <div id='portfolio'></div>
+            <h1>Featured Projects</h1>
+            <CardGroup>
+                <Row>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={map} />
+                            <Card.Body>
+                                <Card.Title>Tracking domestic ducks movement in poultry market chain</Card.Title>
+                                <Card.Text>
+                                This is a map web-application demo and data analysis on using data from Movebank website and LeafletJS. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={bovine} />
+                            <Card.Body>
+                                <Card.Title>FAOSTAT data analysis on enteric fermentation
+                                </Card.Title>
+                                <Card.Text>
+                                    These notebooks are reproduction of FAOSTAT data analysis on bovine's enteric fermentation and its effects on the world's climate.
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={stroke} />
+                            <Card.Body>
+                                <Card.Title>Stroke Prediction</Card.Title>
+                                <Card.Text>
+                                Exploratory data analysis on stroke prediction to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={brain} />
+                            <Card.Body>
+                                <Card.Title>Web-based DICOM Viewer</Card.Title>
+                                <Card.Text>
+                                This is a web-based volumetric DICOM viewer application using VTKJS deployed on Heroku server. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={nutrition} />
+                            <Card.Body>
+                                <Card.Title>Exploratory Data Analysis on Nutrition</Card.Title>
+                                <Card.Text>
+                                Data science project based on several Kaggle datasets on food nutrition and health. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={heart} />
+                            <Card.Body>
+                                <Card.Title>Heart Failure Prediction</Card.Title>
+                                <Card.Text>
+                                EDA and machine learning model selection on using patients' electronic health records to predict heart failure. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={genoken} />
+                            <Card.Body>
+                                <Card.Title>Genoken</Card.Title>
+                                <Card.Text>
+                                Genoken" is an open source general-purpose bioinformatics toolkit for basic sequencing analysis written in Python. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={regression} />
+                            <Card.Body>
+                                <Card.Title>Medical Cost Prediction</Card.Title>
+                                <Card.Text>
+                                Using regression models to predict the medical insurance cost for patients based on their electronic health records. 
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={wheat} />
+                            <Card.Body>
+                                <Card.Title>Data Visualization on Effects of Climate Change on Food Supply</Card.Title>
+                                <Card.Text>
+                                Reproducing studies on climate change effects on food production into a web-based data visualization.
+                                </Card.Text>
+                                <Button variant="outline-dark">View</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </CardGroup>
+            </Container>
         </Fragment>
     ];
 }
