@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, {Component, Fragment} from 'react';
+import NavbarComp from './NavbarComp.js';
+import Jumbo from './JumboComp.js';
+import AboutPage from './About.js';
+import ProjectPage from './Project.js';
+import SkillsPage from './skills.js';
+import TimelinePage from './Timeline.js';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return [
+      <Fragment>
+      <NavbarComp />
+      <Jumbo/>
+      <AboutPage />
+      <ProjectPage />
+      <SkillsPage />
+      <TimelinePage/>
+      </Fragment>
+
+    ];
+  }
 }
 
 export default App;
