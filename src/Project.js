@@ -57,7 +57,7 @@ const ProjectPage = () => {
                                 <Card.Text>
                                 Exploratory data analysis on stroke prediction to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
                                 </Card.Text>
-                                <a href="%PUBLIC_URL%/eda-stroke.html" target='_blank' rel='noreferrer'>
+                                <a href="eda-stroke.html" target='_blank' rel='noreferrer'>
                                 <Button variant="outline-dark">View</Button>
                                 </a>
                             </Card.Body>
@@ -131,7 +131,7 @@ const ProjectPage = () => {
                                 <Card.Text>
                                 Using regression models to predict the medical insurance cost for patients based on their electronic health records. 
                                 </Card.Text>
-                                <a href="%PUBLIC_URL%/medical-cost.html" target='_blank' rel='noreferrer'>
+                                <a href="medical-cost.html" target='_blank' rel='noreferrer'>
                                 <Button variant="outline-dark">View</Button>
                                 </a>
                             </Card.Body>
