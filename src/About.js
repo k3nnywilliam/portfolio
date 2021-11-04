@@ -1,7 +1,7 @@
 import React, { Fragment, } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-//import me from './images/me3.jpg';
-import './App.css';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import me from './images/me8.jpg';
+import styles from './App.css';
 
 const AboutPage = () => {
     return [
@@ -10,8 +10,13 @@ const AboutPage = () => {
                 <hr /><br /><br />
                 <div id='about'></div>
                 <h1>About Me</h1>
+                <br/>
                 <Row>
+                <Col md={4}>
+                <Image src={me} rounded className={styles.me_pic} />
+                </Col>
                     <Col>
+                    <br/>
                         <p>
                             My name is Kenny William Nyallau and I am a full stack software developer from Kuching, Malaysia.I was born in the Borneo Island, where I belong to a native tribe called Iban.I graduated from the University of South Australia in 2011 with Masters of Information Technology to
                             pursue a career in software engineering and computer science.
@@ -26,6 +31,8 @@ const AboutPage = () => {
                             I believe that such analysis in those domains would prepare us for the impending food and health crisis due to climate emergency (climate change is already happening on the extreme level, so it doesn't make sense to call it climate change anymore).
                         </p>
                         <p>When I'm not in front of my computer, I like to read, draw, practice yoga and learn calisthenics.</p>
+
+                        <br /><br />
                     </Col>
                 </Row>
             </Container>
