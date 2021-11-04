@@ -101,7 +101,7 @@ const ProjectPage = () => {
                                 <Card.Text>
                                 EDA and machine learning model selection on using patients' electronic health records to predict heart failure. 
                                 </Card.Text>
-                                <a href="%PUBLIC_URL%/heart-failure.html" target='_blank' rel='noreferrer'>
+                                <a href="heart-failure.html" target='_blank' rel='noreferrer'>
                                 <Button variant="outline-dark">View</Button>
                                 </a>
                             </Card.Body>
