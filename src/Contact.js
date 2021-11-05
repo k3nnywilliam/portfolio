@@ -4,13 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import styles from './App.css';
-import { style } from 'dom-helpers';
 
 const ContactPage = () => {
     return (
         <Fragment>
             <Container>
-            <div className={styles.Footer} style={styles.Footer}>
+            <div className={styles.Contact}>
                 <div id='contact'></div>
                 <hr />
                 <h1>Contact Me</h1>
