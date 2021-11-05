@@ -9,6 +9,7 @@ const SkillsPage = () => {
                 <div id='skills'></div>
                 <div className="content2">
                     <h1>Skills</h1>
+                    <br/>
                     <h3>Programming</h3>
                     <p>Python, Javascript, Java, C#, SQL, Bash</p>
                     <h3>Computer vision/Machine Learning</h3>

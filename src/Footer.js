@@ -1,18 +1,19 @@
 import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
-function GetYear(){
+function GetYear() {
     return new Date().getFullYear();
 }
-
 
 const FooterPage = () => {
     return (
         <Fragment>
-        <Container>
-             <p></p>
-        © {GetYear()} Kenny William Nyallau. All rights reserved.
-        </Container>
+            <Container>
+                <div>
+                    <br />
+                    © {GetYear()} Kenny William Nyallau. All rights reserved.
+                </div>
+            </Container>
         </Fragment>
     );
 }

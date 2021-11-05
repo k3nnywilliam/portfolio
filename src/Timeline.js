@@ -7,7 +7,6 @@ const TimelinePage = () => {
         <Container>
         <hr/><br/><br/>  
              <div id='timeline'></div>
-             
           <h1>Timeline</h1>
         <section>
             <div className="container py-5">

@@ -1,13 +1,16 @@
 import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import styles from './App.css';
+import { style } from 'dom-helpers';
 
 const ContactPage = () => {
-    return [
+    return (
         <Fragment>
             <Container>
+            <div className={styles.Footer} style={styles.Footer}>
                 <div id='contact'></div>
                 <hr />
                 <h1>Contact Me</h1>
@@ -28,10 +31,10 @@ const ContactPage = () => {
                 <a href="https://github.com/k3nnywilliam" role="button"><FontAwesomeIcon icon={faGithub} size="2x"/></a> Github
                 </p>
                 </Row>
-               
+               </div>
             </Container>
         </Fragment>
-    ];
+    );
 }
 
 export default ContactPage;

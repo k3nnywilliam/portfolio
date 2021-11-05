@@ -15,9 +15,10 @@ const ProjectPage = () => {
     return [
         <Fragment>
         <Container>
-        <hr/><br/><br/> 
+        <br/><br/> 
             <div id='portfolio'></div>
             <h1>Featured Projects</h1>
+            <br/>
             <CardGroup className={styles}>
                 <Row>
                     <Col sm>

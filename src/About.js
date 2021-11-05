@@ -7,7 +7,7 @@ const AboutPage = () => {
     return [
         <Fragment>
             <Container>
-                <hr /><br /><br />
+                <br /><br />
                 <div id='about'></div>
                 <h1>About Me</h1>
                 <br/>
