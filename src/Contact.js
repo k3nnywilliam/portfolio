@@ -17,17 +17,17 @@ const ContactPage = () => {
     
                 <Row>
                 <p>
-                <a href="https://www.linkedin.com/in/kennyallau/" role="button"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a> Linkedin
+                <a href="https://www.linkedin.com/in/kennyallau/" role="button"><FontAwesomeIcon icon={faLinkedin} size="2x" className={styles.FAIcon} /></a> Linkedin
                 </p>
                 </Row>
                 <Row>
                 <p>
-                <a href="mailto:k3nnywilliam@gmail.com" role="button"><FontAwesomeIcon icon={faEnvelope} size="2x"/></a> Email
+                <a href="mailto:k3nnywilliam@gmail.com" role="button"><FontAwesomeIcon icon={faEnvelope} size="2x" className={styles.FAIcon}/></a> Email
                 </p>
                 </Row>
                 <Row>
                 <p>
-                <a href="https://github.com/k3nnywilliam" role="button"><FontAwesomeIcon icon={faGithub} size="2x"/></a> Github
+                <a href="https://github.com/k3nnywilliam" role="button"><FontAwesomeIcon icon={faGithub} size="2x" className={styles.FAIcon}/></a> Github
                 </p>
                 </Row>
                </div>
