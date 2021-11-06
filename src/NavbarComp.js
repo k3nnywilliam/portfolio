@@ -1,10 +1,12 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from './navbarstyle.css';
+
 
 function NavbarComp() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky='top'>
+        <Navbar className={styles.shadow_nav} collapseOnSelect expand="lg" bg="light" variant="light" sticky='top'>
             <Container>
                 <Navbar.Brand href="#home">KW</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
