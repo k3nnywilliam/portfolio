@@ -36,19 +36,18 @@ const ProjectPage = () => {
                         </Card>
                     </Col>
                     <Col sm>
-                        <Card>
+                    <a href="https://github.com/k3nnywilliam/faostat-data-analysis" target='_blank' rel='noreferrer'>
+                        <Card className={styles.card_text}>
                             <Card.Img variant="top" src={bovine} />
                             <Card.Body>
-                                <Card.Title>FAOSTAT data analysis on enteric fermentation
+                                <Card.Title className={styles.card_text}>FAOSTAT data analysis on enteric fermentation
                                 </Card.Title>
-                                <Card.Text>
+                                <Card.Text className={styles.card_text}>
                                     These notebooks are reproduction of FAOSTAT data analysis on bovine's enteric fermentation and its effects on the world's climate.
                                 </Card.Text>
-                                <a href="https://github.com/k3nnywilliam/faostat-data-analysis" target='_blank' rel='noreferrer'>
-                                <Button variant="outline-dark">View</Button>
-                                </a>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                     <Col sm>
                         <Card>

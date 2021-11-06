@@ -39,3 +39,7 @@ code {
   border: 1px solid #cccccc;
   background-color: #916ec9;
 }
+
+.text{
+  text-decoration: none;
+}
