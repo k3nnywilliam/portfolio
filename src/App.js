@@ -12,20 +12,20 @@ import './App.css';
 
 class App extends Component {
   render(){
-    return [
+    return (
       <Fragment>
       <NavbarComp />
-      <Jumbo/>
       <AboutPage />
-      <CornPage />
+      <Jumbo />
       <ProjectPage />
+     
       <SkillsPage />
       <TimelinePage/>
       <ContactPage/>
       <FooterPage/>
       </Fragment>
 
-    ];
+    );
   }
 }
 
