@@ -12,9 +12,15 @@ code {
     monospace;
 }
 
+
 .jumbo {
-  height: 100%;
+  height:400px;
   width: 100%;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/farming2.gif');
 }
 
 
@@ -38,4 +44,8 @@ code {
   color: #ffffff;
   border: 1px solid #cccccc;
   background-color: #916ec9;
+}
+
+.text{
+  text-decoration: none;
 }

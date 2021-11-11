@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Card, CardGroup, Button, Row, Col, Container } from 'react-bootstrap';
 import map from './images/map3-min.jpg';
+import rov from './images/rov.jpg';
 import genoken from './images/genoken.jpg';
 import bovine from './images/bovine.jpg';
 import stroke from './images/stroke2.jpg'
@@ -15,10 +16,12 @@ const ProjectPage = () => {
     return [
         <Fragment>
         <Container>
+        
         <br/><br/> 
+        <hr/>
             <div id='portfolio'></div>
             <h1>Featured Projects</h1>
-            <br/>
+            <br/><br/>
             <CardGroup className={styles}>
                 <Row>
                     <Col sm>
@@ -36,12 +39,12 @@ const ProjectPage = () => {
                         </Card>
                     </Col>
                     <Col sm>
-                        <Card>
+                        <Card className={styles.card_text}>
                             <Card.Img variant="top" src={bovine} />
                             <Card.Body>
-                                <Card.Title>FAOSTAT data analysis on enteric fermentation
+                                <Card.Title className={styles.card_text}>FAOSTAT data analysis on enteric fermentation
                                 </Card.Title>
-                                <Card.Text>
+                                <Card.Text className={styles.card_text}>
                                     These notebooks are reproduction of FAOSTAT data analysis on bovine's enteric fermentation and its effects on the world's climate.
                                 </Card.Text>
                                 <a href="https://github.com/k3nnywilliam/faostat-data-analysis" target='_blank' rel='noreferrer'>
@@ -49,16 +52,31 @@ const ProjectPage = () => {
                                 </a>
                             </Card.Body>
                         </Card>
+                       
                     </Col>
                     <Col sm>
                         <Card>
-                            <Card.Img variant="top" src={stroke} />
+                            <Card.Img variant="top" src={rov} />
                             <Card.Body>
-                                <Card.Title>Stroke Prediction</Card.Title>
+                                <Card.Title>Web-based Lidar scan viewer of the wreck of the City of Genoa </Card.Title>
                                 <Card.Text>
-                                Exploratory data analysis on stroke prediction to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
+                                The purpose of this project is to develop a web-based Lidar scan viewer of the wreck of the City of Genoa in Lake Huron, Detroit. This project was made with CesiumJS and Resium.
                                 </Card.Text>
-                                <a href="eda-stroke.html" target='_blank' rel='noreferrer'>
+                                <a href="https://genoa-ship.herokuapp.com/" target='_blank' rel='noreferrer'>
+                                <Button variant="outline-dark">View</Button>
+                                </a>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={wheat} />
+                            <Card.Body>
+                                <Card.Title>Data Visualization on Effects of Climate Change on Food Supply</Card.Title>
+                                <Card.Text>
+                                Reproducing studies on climate change effects on food production into a web-based data visualization.
+                                </Card.Text>
+                                <a href="https://github.com/k3nnywilliam/climate-change-food-supply" target="_blank" rel="noreferrer">
                                 <Button variant="outline-dark">View</Button>
                                 </a>
                             </Card.Body>
@@ -108,6 +126,20 @@ const ProjectPage = () => {
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col sm>
+                        <Card>
+                            <Card.Img variant="top" src={stroke} />
+                            <Card.Body>
+                                <Card.Title>Stroke Prediction</Card.Title>
+                                <Card.Text>
+                                Exploratory data analysis on stroke prediction to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
+                                </Card.Text>
+                                <a href="eda-stroke.html" target='_blank' rel='noreferrer'>
+                                <Button variant="outline-dark">View</Button>
+                                </a>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
                 <Row>
                     <Col sm>
@@ -140,21 +172,40 @@ const ProjectPage = () => {
                     </Col>
                     <Col sm>
                         <Card>
-                            <Card.Img variant="top" src={wheat} />
+                           
                             <Card.Body>
-                                <Card.Title>Data Visualization on Effects of Climate Change on Food Supply</Card.Title>
+                                <Card.Title>Coming soon</Card.Title>
                                 <Card.Text>
-                                Reproducing studies on climate change effects on food production into a web-based data visualization.
+                                Coming soon.
                                 </Card.Text>
-                                <a href="https://github.com/k3nnywilliam/climate-change-food-supply" target="_blank" rel="noreferrer">
+                               
                                 <Button variant="outline-dark">View</Button>
-                                </a>
+                                
                             </Card.Body>
                         </Card>
                     </Col>
+                    <Col sm>
+                        <Card>
+                           
+                            <Card.Body>
+                                <Card.Title>Coming soon</Card.Title>
+                                <Card.Text>
+                                Coming soon.
+                                </Card.Text>
+                               
+                                <Button variant="outline-dark">View</Button>
+                                
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    
                 </Row>
             </CardGroup>
+            <br/>
+            <br/>
+            <hr/>
             </Container>
+            
         </Fragment>
     ];
 }
