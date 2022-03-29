@@ -6,7 +6,7 @@ import styles from './navbarstyle.css';
 
 function NavbarComp() {
     return (
-        <Navbar className={styles.shadow_nav} collapseOnSelect expand="lg" bg="light" variant="light" sticky='top'>
+        <Navbar className="" expand="lg" bg="light" sticky='top'>
             <Container>
                 <Navbar.Brand href="#home">KW</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

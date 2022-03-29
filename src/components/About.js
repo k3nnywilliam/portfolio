@@ -1,22 +1,22 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import me from './images/me5.jpg';
-import styles from './App.css';
+import { Image } from 'react-bootstrap';
+import me from '../images/me4.jpg';
 
-const AboutPage = () => {
+export default function AboutMe() {
     return (
         <>
-            <Container>
+            <div className='container'>
                 <br /><br />
                 <div id='about'></div>
                 <h1>About Me</h1>
-                <br />
-                <Row>
-                    <Col md={4} >
-                        <Image src={me} rounded={true} className={styles.me_pic} />
-                    </Col>
-                    <Col>
-                        <br />
+
+                <div className='row'>
+                    <div className='col md-4'>
+                        <Image src={me} rounded className='image-fluid'>
+                        </Image>
+                    </div>
+                    <div className='col md-4'>
+
                         <p>
 
                             💼 Software developer | Interested in life science, nutrition, healthcare, food security and geospatial visualization
@@ -25,13 +25,11 @@ const AboutPage = () => {
                         </p>
                         <p>When I'm not in front of my computer, I like to read, draw, practice yoga and learn calisthenics.</p>
 
-                        <br /><br />
-                    </Col>
-                </Row>
-            </Container>
-        </ >
+                    </div>
 
+
+                </div>
+            </div>
+        </>
     );
 }
-
-export default AboutPage;
