@@ -8,17 +8,18 @@ function NavbarComp() {
     return (
         <Navbar className="" expand="lg" bg="light" sticky='top'>
             <Container>
-                <Navbar.Brand href="#home">KW</Navbar.Brand>
+                <Navbar.Brand href="#">KW</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto justify-content-end">
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#about" >About Me</Nav.Link>
                         <Nav.Link href="#portfolio">Projects</Nav.Link>
                         <Nav.Link href="#skills">Skills</Nav.Link>
                         <Nav.Link href="#timeline">Timeline</Nav.Link>
+                        <Nav.Link href="#about" >About Me</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
+                        
                         
                     </Nav>
                 </Navbar.Collapse>
