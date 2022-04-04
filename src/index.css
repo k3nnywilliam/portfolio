@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: 'Paytone One', sans-serif;
   font-family: 'Source Serif 4', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,16 +10,6 @@ code {
     monospace;
 }
 
-
-.jumbo {
-  height:400px;
-  width: 100%;
-  margin: auto;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('images/farming2.gif');
-}
 
 
 

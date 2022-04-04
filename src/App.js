@@ -1,10 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import NavbarComp from './NavbarComp.js';
-import Jumbo from './JumboComp.js';
 import MyJumbo from './components/MyJumbo.js';
 import AboutPage from './About.js';
-import AboutMe from './components/About.js';
-import CornPage from './Corn.js';
+
 import ProjectPage from './Project.js';
 import SkillsPage from './skills.js';
 import Timeline from './components/Timeline.js';
@@ -20,8 +18,7 @@ class App extends Component {
       <>
         <NavbarComp />
         <MyJumbo/>
-        
-        {/*<Jumbo />*/}
+      
         <ProjectPage />
         <SkillsPage />
         {/* <TimelinePage /> */}
