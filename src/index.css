@@ -1,6 +1,4 @@
 body {
-  font-family: 'Paytone One', sans-serif;
-  font-family: 'Source Serif 4', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,7 +8,17 @@ code {
     monospace;
 }
 
+h1 {
+  font-family: 'BIZ UDPMincho', serif;
 
+  font-family: 'Paytone One', sans-serif;
+
+  font-family: 'Source Serif 4', serif;
+}
+
+p {
+  font-family: 'Paytone One', sans-serif;
+}
 
 
 .card {
