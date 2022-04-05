@@ -6,19 +6,19 @@ import styles from './navbarstyle.css';
 
 function NavbarComp() {
     return (
-        <Navbar className="" expand="lg" bg="light" sticky='top'>
+        <Navbar className="" expand="lg" bg="white" sticky='top' >
             <Container>
-                <Navbar.Brand href="#">KW</Navbar.Brand>
+                <Navbar.Brand href="#"><h3>KW</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto justify-content-end">
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#portfolio">Projects</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#timeline">Timeline</Nav.Link>
-                        <Nav.Link href="#about" >About Me</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#portfolio"><h4>Projects</h4></Nav.Link>
+                        <Nav.Link href="#skills"><h4>Skills</h4></Nav.Link>
+                        <Nav.Link href="#timeline"><h4>Timeline</h4></Nav.Link>
+                        <Nav.Link href="#about" ><h4>About Me</h4></Nav.Link>
+                        <Nav.Link href="#contact"><h4>Contact</h4></Nav.Link>
                         
                         
                     </Nav>

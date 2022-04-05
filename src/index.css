@@ -9,16 +9,18 @@ code {
 }
 
 div {
-  font-family: 'Nanum Myeongjo', serif;
-}
-
-h1 {
-
   font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4 {
+
+  font-family: 'Fugaz One', cursive;
+
+}
+  
+
 p {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -31,7 +33,7 @@ p {
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  border: 2px solid #f2f8f9;
+  border: 2px solid;
 }
 
 .card:hover {
@@ -39,7 +41,7 @@ p {
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.8);
   top: -4px;
   color: #ffffff;
-  border: 1px solid #cccccc;
+
   background-color: #916ec9;
 }
 
