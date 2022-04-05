@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.88e606eb.chunk.css",
-    "main.js": "/portfolio/static/js/main.1778a4d4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1778a4d4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.150af28f.chunk.css",
+    "main.js": "/portfolio/static/js/main.1ec59333.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ec59333.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6500899a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6500899a.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portfolio/static/css/2.0a9ec390.chunk.css",
@@ -12,11 +12,13 @@
     "static/js/3.0aa0d504.chunk.js.map": "/portfolio/static/js/3.0aa0d504.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.88e606eb.chunk.css.map": "/portfolio/static/css/main.88e606eb.chunk.css.map",
+    "static/css/main.150af28f.chunk.css.map": "/portfolio/static/css/main.150af28f.chunk.css.map",
     "static/js/2.24845058.chunk.js.LICENSE.txt": "/portfolio/static/js/2.24845058.chunk.js.LICENSE.txt",
     "static/media/bovine.9e1f791f.jpg": "/portfolio/static/media/bovine.9e1f791f.jpg",
     "static/media/brain2.af4787f0.jpg": "/portfolio/static/media/brain2.af4787f0.jpg",
     "static/media/data-analysis1.29e7ddf2.png": "/portfolio/static/media/data-analysis1.29e7ddf2.png",
+    "static/media/dataviz1.71dfdbd0.gif": "/portfolio/static/media/dataviz1.71dfdbd0.gif",
+    "static/media/dem-kinabalu.a717d54a.png": "/portfolio/static/media/dem-kinabalu.a717d54a.png",
     "static/media/genoken.fd01fea9.jpg": "/portfolio/static/media/genoken.fd01fea9.jpg",
     "static/media/graph.5e1d1dcc.gif": "/portfolio/static/media/graph.5e1d1dcc.gif",
     "static/media/heart2.97020a17.jpg": "/portfolio/static/media/heart2.97020a17.jpg",
@@ -25,6 +27,7 @@
     "static/media/nutrition2.0cf5ed4e.jpg": "/portfolio/static/media/nutrition2.0cf5ed4e.jpg",
     "static/media/regression.4f3cfa7d.jpg": "/portfolio/static/media/regression.4f3cfa7d.jpg",
     "static/media/rov.5d416a7d.jpg": "/portfolio/static/media/rov.5d416a7d.jpg",
+    "static/media/sinabung.f1b7e7a4.png": "/portfolio/static/media/sinabung.f1b7e7a4.png",
     "static/media/stroke2.9b94caaf.jpg": "/portfolio/static/media/stroke2.9b94caaf.jpg",
     "static/media/wheat.6e3a21f8.jpg": "/portfolio/static/media/wheat.6e3a21f8.jpg"
   },
@@ -32,7 +35,7 @@
     "static/js/runtime-main.6500899a.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.24845058.chunk.js",
-    "static/css/main.88e606eb.chunk.css",
-    "static/js/main.1778a4d4.chunk.js"
+    "static/css/main.150af28f.chunk.css",
+    "static/js/main.1ec59333.chunk.js"
   ]
 }
