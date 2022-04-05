@@ -8,16 +8,17 @@ code {
     monospace;
 }
 
+div {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
 h1 {
-  font-family: 'BIZ UDPMincho', serif;
 
-  font-family: 'Paytone One', sans-serif;
-
-  font-family: 'Source Serif 4', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 
