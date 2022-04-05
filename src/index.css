@@ -29,11 +29,10 @@ p {
   top: 0px;
   background-color: #f2f8f9;
   color: #212529;
-  border-radius: 4px;
+  border-radius: 8px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  border: 2px solid;
 }
 
 .card:hover {
@@ -41,7 +40,6 @@ p {
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.8);
   top: -4px;
   color: #ffffff;
-
   background-color: #916ec9;
 }
 
