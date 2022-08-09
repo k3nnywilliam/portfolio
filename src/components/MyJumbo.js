@@ -15,7 +15,7 @@ function MyJumbo() {
                     <div className="position-absolute ">
              
                         <h1 className="text-center text-light"> Kenny William Nyallau</h1>
-                        <p className="lead text-center text-light font-weight-bold">Full stack developer | Creative Technologist | Data Visualization</p>
+                        <p className="lead text-center text-light font-weight-bold"> Senior Software Engineer | Data Visualization</p>
                     </div>
 
                 </div>
