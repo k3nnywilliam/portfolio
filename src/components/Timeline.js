@@ -14,9 +14,14 @@ function Timeline() {
 
                         
                         <ul className="timeline">
+                        <li className="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div className="timeline-arrow"></div>
+                                <h2 className="h5 mb-0">Senior Software Engineer, X-FAB Sarawak Sdn Bhd</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>May 2022-present</span>
+                             
+                            </li>
                             <li className="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div className="timeline-arrow"></div>
-                                <h2 className="h5 mb-0">Software Engineer/Consultant (Part time)</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Jan 2021-present</span>
+                                <h2 className="h5 mb-0">Software Engineer/Consultant (Part time)</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Jan 2021-April 2022</span>
                                 <p className="text-small mt-2 font-weight-light">• Provided software development consultancy and project management</p>
                             </li>
                             <li className="timeline-item bg-white rounded ml-3 p-4 shadow">
