@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.208100f2.chunk.css",
-    "main.js": "/portfolio/static/js/main.d33847ae.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d33847ae.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.01025b50.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.01025b50.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6500899a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6500899a.js.map",
     "static/css/2.0a9ec390.chunk.css": "/portfolio/static/css/2.0a9ec390.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.0a9ec390.chunk.css.map": "/portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.208100f2.chunk.css.map": "/portfolio/static/css/main.208100f2.chunk.css.map",
     "static/js/2.24845058.chunk.js.LICENSE.txt": "/portfolio/static/js/2.24845058.chunk.js.LICENSE.txt",
+    "static/media/australia_fire.54588f65.png": "/portfolio/static/media/australia_fire.54588f65.png",
     "static/media/bovine.9e1f791f.jpg": "/portfolio/static/media/bovine.9e1f791f.jpg",
     "static/media/brain2.af4787f0.jpg": "/portfolio/static/media/brain2.af4787f0.jpg",
     "static/media/data-analysis1.29e7ddf2.png": "/portfolio/static/media/data-analysis1.29e7ddf2.png",
@@ -35,6 +36,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.24845058.chunk.js",
     "static/css/main.208100f2.chunk.css",
-    "static/js/main.d33847ae.chunk.js"
+    "static/js/main.01025b50.chunk.js"
   ]
 }
